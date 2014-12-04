@@ -1,0 +1,80 @@
+# depslib dependency file v1.0
+1409946102 source:/home/jesse/TestCB/SDLBasicsMaps/CAnimation.cpp
+	"CAnimation.h"
+	<iostream>
+
+1417561905 /home/jesse/TestCB/SDLBasicsMaps/CAnimation.h
+	<SDL/SDL.h>
+
+1409087332 source:/home/jesse/TestCB/SDLBasicsMaps/CApp.cpp
+	"CApp.h"
+	<iostream>
+
+1417561926 /home/jesse/TestCB/SDLBasicsMaps/CApp.h
+	<SDL/SDL.h>
+	"Define.h"
+	"CAnimation.h"
+	"CEntity.h"
+	"CEvent.h"
+	"CSurface.h"
+
+1410487813 /home/jesse/TestCB/SDLBasicsMaps/CEntity.h
+	<vector>
+	"CAnimation.h"
+	"CSurface.h"
+
+1417561913 /home/jesse/TestCB/SDLBasicsMaps/CSurface.h
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+
+1417561919 /home/jesse/TestCB/SDLBasicsMaps/CEvent.h
+	<SDL/SDL.h>
+
+1409087339 source:/home/jesse/TestCB/SDLBasicsMaps/CApp_OnCleanup.cpp
+	"CApp.h"
+
+1413024321 source:/home/jesse/TestCB/SDLBasicsMaps/CApp_OnEvent.cpp
+	"CApp.h"
+
+1417614353 source:/home/jesse/TestCB/SDLBasicsMaps/CApp_OnInit.cpp
+	"CApp.h"
+
+1409086897 source:/home/jesse/TestCB/SDLBasicsMaps/CApp_OnLoop.cpp
+	"CApp.h"
+
+1409324501 source:/home/jesse/TestCB/SDLBasicsMaps/CApp_OnRender.cpp
+	"CApp.h"
+
+1410487854 source:/home/jesse/TestCB/SDLBasicsMaps/CEntity.cpp
+	"CEntity.h"
+	<iostream>
+
+1400558887 source:/home/jesse/TestCB/SDLBasicsMaps/CEvent.cpp
+	"CEvent.h"
+
+1409143956 source:/home/jesse/TestCB/SDLBasicsMaps/CSurface.cpp
+	"CSurface.h"
+
+1413024182 source:/home/jesse/TestCB/SDLBasicsMaps/CArea.cpp
+	"CArea.h"
+
+1409987002 source:/home/jesse/TestCB/SDLBasicsMaps/CMap.cpp
+	"CMap.h"
+
+1409147999 source:/home/jesse/TestCB/SDLBasicsMaps/CTile.cpp
+	"CTile.h"
+
+1409146925 /home/jesse/TestCB/SDLBasicsMaps/Define.h
+
+1417561916 /home/jesse/TestCB/SDLBasicsMaps/CMap.h
+	<SDL/SDL.h>
+	<vector>
+	"CTile.h"
+	"CSurface.h"
+
+1409147877 /home/jesse/TestCB/SDLBasicsMaps/CTile.h
+	"Define.h"
+
+1409987544 /home/jesse/TestCB/SDLBasicsMaps/CArea.h
+	"CMap.h"
+
