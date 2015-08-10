@@ -32,7 +32,7 @@ bool CMap::OnLoad(char* File) {
 void CMap::OnRender(SDL_Surface* Surf_Display, int MapX, int MapY) {
     if(Surf_Tileset == NULL) return;
 
-    //determine how many tiles wide and how many high  in this example it is 1X2 1 tile high x 2 tiles wide
+    //determine how many tiles wide and how many high  in this example it is 1X2 (1 tile high x 2 tiles wide)
     int TilesetWidth  = Surf_Tileset->w / TILE_SIZE;
     int TilesetHeight = Surf_Tileset->h / TILE_SIZE;
 
