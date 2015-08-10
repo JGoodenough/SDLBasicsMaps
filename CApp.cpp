@@ -33,6 +33,8 @@ int CApp::OnExecute(){
     return 0;
 }
 
+
+//Starting point of program
 int main(int argc, char* argv[]){
     CApp theApp;
 
