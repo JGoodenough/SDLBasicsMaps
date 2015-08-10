@@ -17,7 +17,7 @@ int CApp::OnExecute(){
     }
 
     SDL_Event Event;
-
+    // main game loop
     while(running){
         while(SDL_PollEvent(&Event)){
             OnEvent(&Event);
