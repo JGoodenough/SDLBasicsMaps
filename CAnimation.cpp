@@ -36,7 +36,7 @@ void CAnimation::OnAnimate() {
                 FrameInc = -FrameInc;
             }
         }
-    } else {
+    } else { //No oscillation just resets back to frame 0 and runs through frames again
         if(CurrentFrame > MaxFrames-1) {
             CurrentFrame = 0;
         }
